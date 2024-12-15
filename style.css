@@ -1,0 +1,180 @@
+.navbar {
+  padding: 10px 0;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.navbar .container {
+  padding: 0 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid black; */
+  position: relative;
+  left: 150px;
+}
+
+.menu .menu-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.menu .menu-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.menu .menu-item a:hover {
+  color: orange;
+}
+
+
+
+
+
+.icons .nav-right-part {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icons .nav-right-part a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.material-icons {
+  font-size: 24px;
+}
+
+
+/* Bannner section-------------- */
+
+.banner-area .container {
+  padding: 0 12px;
+  margin-left: 99.600px;
+  margin-right: 99.600px;
+
+}
+
+.container .banner-slider {
+  margin-top: 15px;
+}
+
+.banner-slider .single-slide {
+  /* border: 2px solid black; */
+  padding-left: 100px;
+  width: 1196px;
+  height: 699.150px;
+}
+
+.single-slide .row {
+  display: flex;
+  justify-content: center;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.row .banner-left {
+  padding: 0 12px;
+}
+
+.banner-image img {
+  width: 484.325px;
+  height: 699.150px;
+}
+
+.row .banner-right {
+  display: flex;
+  align-items: center;
+}
+
+.right-img {
+  width: 231px;
+  height: 673.900px;
+  margin-right: 120px;
+}
+
+.right-img .imag1 {
+  margin-bottom: 48px;
+  width: 200px;
+  height: auto;
+  position: relative;
+  left: 50px;
+}
+
+
+.banner-content {
+  /* border: 2px solid black; */
+  margin: 0 -50px;
+
+  width: 401px;
+  height: 628.400px;
+  position: relative;
+  left: 70px;
+  top: -20px;
+
+}
+
+.banner-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.15;
+  position: relative;
+  left: 50px;
+}
+
+.banner-content p {
+  /* border: 2px solid black; */
+  hyphens: auto;
+  margin-bottom: 10px;
+  position: relative;
+  left: 50px;
+  word-wrap: break-word;
+  /* Ensures words break to the next line */
+  overflow-wrap: break-word;
+  /* Alternative for better compatibility */
+  width: 80%;
+  /* Optional: Adjust width to control where lines break */
+  text-align: justify;
+  font-size: large;
+  line-height: 1.5; /* Adjust this value for the desired gap */
+}
+
+.banner-btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 220px;
+}
+
+.banner-btn .btn {
+  display: flex;
+  align-items: center;
+  padding: 0 36px;
+  width: 133.075px;
+  height: 52px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #dca378;
+  position: relative;
+  right: 240px;
+}
